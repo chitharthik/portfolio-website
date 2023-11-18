@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(50,51,56);
+}
+.top
+{
+    
+    display:flex;
+    justify-content: space-between;
+   
+}
+.photo
+{
+   
+    position: absolute;
+    top: -64px;
+    right: -25px;
+    opacity: 0px;
+   
+}
+.sun
+{
+   height: min-content; 
+   width: min-content;
+   height: 60px;
+   width: 60px;
+   position: relative;
+   top: 25px;
+   left: 60px;
+   
+}
+.topic
+{
+    display: flex;
+    padding-left: 35px;
+    margin-top:25px ;
+    font-size: 20px;
+    color: whitesmoke;
+    opacity: 0.7;
+    cursor: pointer;
+    
+  
+}
+.topic:hover
+{
+    color: whitesmoke;
+
+}
+input
+{
+    margin-top:35px ;
+    background: none;
+    border-style: none;
+    
+    height: 40px;
+    width: 190px;
+    position: absolute;
+    right:40px;
+    border-radius: 10px;
+    background-color: rgb(61,62,66);
+
+}
+::placeholder
+{
+    padding-left: 5px;
+}
+input:focus
+{
+    outline: none;
+    box-shadow: 0px 9px 20px;
+    padding-left: 10px;
+}
+.intro
+{
+    margin-top: 160px;
+    margin-left: 200px;
+    font-size: 40px;
+    color: whitesmoke;
+    
+}
+.con
+{
+    
+    margin-left: 200px;
+    margin-top: -190px;
+    background: none;
+    border-style: none;
+    border: 2px solid rgb(251,198,105);
+    color: rgb(251,198,105) ;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.con:hover
+{
+    background-color:rgb(251,198,105) ;
+    color: black;
+}
+.about
+{
+    position: relative;
+    top: 290px;
+    color: whitesmoke;
+    margin-left: 60px;
+    margin-right:50px ;
+    font-size: 20px;
+    padding: 60px;
+}
+.line
+{
+    border-bottom: 2px solid rgb(251,198,105);
+    width: 50px;
+}
+.imges
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 570px;
+    right: 40px;
+    border-bottom: 2px solid rgb(251,198,105);
+    border-top: 2px solid rgb(251,198,105);
+    padding: 8px ;
+   
+}
+.fb,.wh,.m{
+    height: fit-content;
+    width: fit-content;
+    height: 40px;
+    width: 40px;
+    padding-top: 12px;
+   
+
+
+}
+.m{
+    height: fit-content;
+    width: fit-content;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    right: -5px;
+
+}
+.wh
+{
+    position: relative;
+    right: -5px;
+
+}
+.fb
+{
+    position: relative;
+    right: -1px;
+
+}
